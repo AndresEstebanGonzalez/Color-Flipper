@@ -8,6 +8,7 @@ btn.addEventListener("click", function () {
 
   document.body.style.backgroundColor = colors[randomNumber];
   document.getElementById("btn").style.backgroundColor = colors[randomNumber];
+  document.getElementById("header-text").style.color = colors[randomNumber];
   color.textContent = colors[randomNumber];
 });
 
